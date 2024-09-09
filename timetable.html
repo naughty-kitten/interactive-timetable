@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Órarend</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            :root {
+                /* Outside dependencies, these may change */
+                --font: url('https://www.komuvesburkolas.hu/Kanit-ExtraLight.ttf');
+                --backgroundImage: url("https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/1287/files/2023/06/smartphone-zombies.jpg");
+            }
+            @font-face {
+                font-family: 'Kanit';
+                src: var(--font) format('truetype');
+            }
+            * {
+                font-family: 'Kanit';
+                scrollbar-width: thin;
+                letter-spacing: -1px;
+                scrollbar-color: #057 #046;
+            }
+            body {
+                background-color: #151515;
+                min-width: 750px;
+                max-width: 1800px;
+                overflow: scroll;
+                background-image: var(--backgroundImage);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .TimetableContainer {
+                width: 80%;
+                margin: 10%;
+                padding: 2%;
+                align-items: center;
+                justify-content: center;
+                display: grid;
+                grid-template-columns: repeat(6, 1fr) !important;
+                background-color: #064;
+                border: 2px solid #053;
+                border-radius: 8px;
+                opacity: 0.8;
+            }
+            .TableContentCell, .TableHeaderCell {
+                justify-content: center;
+                display: grid;
+                margin: 8%;
+                border-radius: 4px;
+                border: 1px solid #053;
+                max-height: 60px;
+                align-content: center;
+            }
+            .TableContentCell {
+                color: #252525;
+                background-color: #075;
+            }
+            .TableHeaderCell {
+                color: black;
+                font-weight: bold;
+                background-color: #076;
+            }
+        </style>
+    </head>
+    <body>
+        <!--"A" hét-->
+        <div class="TimetableContainer">
+            <!--Napok-->
+            <div class="TableHeaderCell">
+                <p>"A" hét</p>
+            </div>
+            <div class="TableHeaderCell">
+                <p>Hétfő</p>
+            </div>
+            <div class="TableHeaderCell">
+                <p>Kedd</p>
+            </div>
+            <div class="TableHeaderCell">
+                <p>Szerda</p>
+            </div>
+            <div class="TableHeaderCell">
+                <p>Csütörtök</p>
+            </div>
+            <div class="TableHeaderCell">
+                <p>Péntek</p>
+            </div>
+            <!--1. Órák-->
+            <div class="TableHeaderCell">
+                <p>1.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--2. Órák-->
+            <div class="TableHeaderCell">
+                <p>2.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--3. Órák-->
+            <div class="TableHeaderCell">
+                <p>3.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--4. Órák-->
+            <div class="TableHeaderCell">
+                <p>4.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--5. Órák-->
+            <div class="TableHeaderCell">
+                <p>5.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--6. Órák-->
+            <div class="TableHeaderCell">
+                <p>6.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--7. Órák-->
+            <div class="TableHeaderCell">
+                <p>7.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--8. Órák-->
+            <div class="TableHeaderCell">
+                <p>8.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+        </div>
+        <!--"B" hét-->
+        <div class="TimetableContainer">
+            <!--Napok-->
+            <div class="TableHeaderCell">
+                <p>"B" hét</p>
+            </div>
+            <div class="TableHeaderCell">
+                <p>Hétfő</p>
+            </div>
+            <div class="TableHeaderCell">
+                <p>Kedd</p>
+            </div>
+            <div class="TableHeaderCell">
+                <p>Szerda</p>
+            </div>
+            <div class="TableHeaderCell">
+                <p>Csütörtök</p>
+            </div>
+            <div class="TableHeaderCell">
+                <p>Péntek</p>
+            </div>
+            <!--1. Órák-->
+            <div class="TableHeaderCell">
+                <p>1.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--2. Órák-->
+            <div class="TableHeaderCell">
+                <p>2.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--3. Órák-->
+            <div class="TableHeaderCell">
+                <p>3.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--4. Órák-->
+            <div class="TableHeaderCell">
+                <p>4.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--5. Órák-->
+            <div class="TableHeaderCell">
+                <p>5.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--6. Órák-->
+            <div class="TableHeaderCell">
+                <p>6.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--7. Órák-->
+            <div class="TableHeaderCell">
+                <p>7.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <!--8. Órák-->
+            <div class="TableHeaderCell">
+                <p>8.</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+            <div class="TableContentCell">
+                <p>valami</p>
+            </div>
+        </div>
+    </body>
+</html>
